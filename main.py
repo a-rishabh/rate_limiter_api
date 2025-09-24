@@ -48,3 +48,4 @@ def home():
 @app.get("/data")
 def get_data():
     return {"data": "Here’s some protected API response"}
+
